@@ -16,7 +16,7 @@ const difficoltàTre = document.querySelector('.difficoltàTre');
 const square = document.getElementById('square');
 
 // difficoltà uno
-difficoltàUno.addEventListener('click', function() {
+difficoltàUno.addEventListener('click', () => {
 
     const columns = 10;
     const row = 10;
@@ -39,7 +39,7 @@ difficoltàUno.addEventListener('click', function() {
 
 
 // difficoltà due
-difficoltàDue.addEventListener('click', function() {
+difficoltàDue.addEventListener('click', () => {
 
     const columns = 9;
     const row = 9;
@@ -62,7 +62,7 @@ difficoltàDue.addEventListener('click', function() {
 
 
 // difficoltà tre
-difficoltàTre.addEventListener('click', function() {
+difficoltàTre.addEventListener('click', () => {
 
     const columns = 7;
     const row = 7;
