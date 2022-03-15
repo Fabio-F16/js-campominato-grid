@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+#square{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.bg-color-aqua{
+    background-color: aqua;
+}
+
+
+.cell{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+    text-align: center;
+}
