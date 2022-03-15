@@ -24,15 +24,15 @@ difficoltàUno.addEventListener('click', function() {
 
     for(let i = 1; i < totalCells + 1; i++){
 
-    const cell = createCell();
-    cell.classList.add('cell-10');
-    const number = i
-    cell.innerText = number;
-    square.appendChild(cell);
+        const cell = createCell();
+        cell.classList.add('cell-10');
+        const number = i
+        cell.innerText = number;
+        square.appendChild(cell);
 
-    cell.addEventListener('click', function() {
-        cell.classList.toggle('bg-color-aqua');
-    })
+        cell.addEventListener('click', function() {
+            cell.classList.toggle('bg-color-aqua');
+        })
     }
 })
 // fine difficoltà uno
@@ -47,15 +47,15 @@ difficoltàDue.addEventListener('click', function() {
 
     for(let i = 1; i < totalCells + 1; i++){
 
-    const cell = createCell();
-    cell.classList.add('cell-9');
-    const number = i
-    cell.innerText = number;
-    square.appendChild(cell);
+        const cell = createCell();
+        cell.classList.add('cell-9');
+        const number = i
+        cell.innerText = number;
+        square.appendChild(cell);
 
-    cell.addEventListener('click', function() {
-        cell.classList.toggle('bg-color-aqua');
-    })
+        cell.addEventListener('click', function() {
+            cell.classList.toggle('bg-color-aqua');
+        })
     }
 })
 // fine difficoltà due
@@ -70,15 +70,15 @@ difficoltàTre.addEventListener('click', function() {
 
     for(let i = 1; i < totalCells + 1; i++){
 
-    const cell = createCell();
-    cell.classList.add('cell-7');
-    const number = i
-    cell.innerText = number;
-    square.appendChild(cell);
+        const cell = createCell();
+        cell.classList.add('cell-7');
+        const number = i
+        cell.innerText = number;
+        square.appendChild(cell);
 
-    cell.addEventListener('click', function() {
-        cell.classList.toggle('bg-color-aqua');
-    })
+        cell.addEventListener('click', function() {
+            cell.classList.toggle('bg-color-aqua');
+        })
     }
 })
 // fine difficoltà tre
