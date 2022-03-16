@@ -13,10 +13,12 @@ const difficoltàUno = document.querySelector('.difficoltàUno');
 const difficoltàDue = document.querySelector('.difficoltàDue');
 const difficoltàTre = document.querySelector('.difficoltàTre');
 
-const square = document.getElementById('square');
+
 
 // difficoltà uno
 difficoltàUno.addEventListener('click', () => {
+    const square = document.getElementById('square');
+    square.innerHTML = '';
 
     const columns = 10;
     const row = 10;
@@ -41,6 +43,9 @@ difficoltàUno.addEventListener('click', () => {
 // difficoltà due
 difficoltàDue.addEventListener('click', () => {
 
+    const square = document.getElementById('square');
+    square.innerHTML = '';
+
     const columns = 9;
     const row = 9;
     const totalCells = columns * row;
@@ -64,6 +69,9 @@ difficoltàDue.addEventListener('click', () => {
 // difficoltà tre
 difficoltàTre.addEventListener('click', () => {
 
+    const square = document.getElementById('square');
+    square.innerHTML = '';
+
     const columns = 7;
     const row = 7;
     const totalCells = columns * row;
@@ -84,10 +92,15 @@ difficoltàTre.addEventListener('click', () => {
 // fine difficoltà tre
 
 
+
+
+
+
+
 // funzioni
 
 // genero un numero random (non utilizzata)
-function generateNumber(min, max){
+function generateRandomNumber(min, max){
     const range = (max - min) + 1;
     const numeroRandom = Math.floor(Math.random()*range + min);
     return numeroRandom;
